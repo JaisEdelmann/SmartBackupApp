@@ -9,7 +9,7 @@ Feel free to branch out and do addtional changes, if you feel like it. I'm open 
 
 
 ## Settings
-Remember to update the settings in app.config, to match you required scenario. Version's indicates how many version you want the backup solution to contain. This means that you will have '5' versions of your source onces it creates the 6th it will remove the first oldeste version.
+Remember to update the settings in app.config, to match your required scenario. Version's indicates how many version you want the backup solution to contain. This means that you will have '5' versions of your source onces it creates the 6th it will remove the first oldeste version.
 
 ```xml
   <appSettings>
