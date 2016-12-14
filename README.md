@@ -20,10 +20,3 @@ Remember to update the settings in app.config, to match you required scenario. V
     <add key="Target"             value="D:\Data\Backup\Target" />
   </appSettings>
 ```
-  
-
-## Changelog
-2016-12-14 - Initial commit..
-
-## known bugs
-None...
