@@ -3,7 +3,7 @@ Simple and smart backupapp application, that can be scheduled via Windows task s
 
 I created this little app, because I really coulden't find any simple and free solutions for my Virtual machines to get automaticly pushed into to my NAS when i felt it was nessary. So i decided to stop wasting time looking for something simple, and just decided build something simple :) 
 
-I personally run the app every night and configure the task in windows task manager so it is able to turn on the pc from sleep mode. I havent had it fail me yet. 
+I personally run the app every night and configure the task in windows task manager so it is able to turn on the pc from sleep mode. 
 
 Feel free to branch out and do addtional changes if you feel like it, i'm open for new ideas and suggestions.
 
