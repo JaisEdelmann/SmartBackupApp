@@ -1,5 +1,5 @@
 # SmartBackupApp
-Simple and smart backupapp application, that can be scheduled via Windows task scheduler.
+Simple and smart backup application, that can be scheduled via Windows task scheduler.
 
 I created this little app, because I really coulden't find any simple and free solutions for my Virtual machines to get automaticly pushed into to my NAS when i felt it was nessary. So i decided to stop wasting time looking for something simple, and just decided build something simple :) 
 
