@@ -5,7 +5,7 @@ I created this little app, because I really coulden't find any simple and free s
 
 I personally run the app every night and configure the task in windows task manager so it is able to turn on the pc from sleep mode. 
 
-Feel free to branch out and do addtional changes if you feel like it, i'm open for new ideas and suggestions.
+Feel free to branch out and do addtional changes, if you feel like it. I'm open for new idea's and suggestions.
 
 
 ## Settings
