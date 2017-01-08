@@ -43,6 +43,7 @@ namespace SmartBackupApp.App
                 _logger.Info("##### 4. Set machine state");
                 SetState(stateService);
 
+                _logger.Info($"All task's completed, {_source} has succesfully been backed up to {_target}");
                 if (Debugger.IsAttached)
                     Console.ReadKey();
             }
@@ -88,12 +89,13 @@ namespace SmartBackupApp.App
             Console.WindowWidth = Console.LargestWindowWidth / 2;
             Console.WindowHeight = Console.LargestWindowHeight / 3;
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine(@"_________            .___                                              ");
-            Console.WriteLine(@"\_   ___ \  ____   __| _/____   ______________ _______ _______   ____  ");
-            Console.WriteLine(@"/    \  \/ /  _ \ / __ |/ __ \ /  ___/ ____/  |  \__  \\_  __ \_/ __ \ ");
-            Console.WriteLine(@"\     \___(  <_> ) /_/ \  ___/ \___ < <_|  |  |  // __ \|  | \/\  ___/ ");
-            Console.WriteLine(@" \______  /\____/\____ |\___  >____  >__   |____/(____  /__|    \___  >");
-            Console.WriteLine(@"        \/            \/    \/     \/   |__|          \/            \/ ");
+            Console.WriteLine(@" _________                      __    __________                __                      _____                 ");
+            Console.WriteLine(@"/   _____/ _____ _____ ________/  |_  \______   \_____    ____ |  | ____ ________      /  _  \ ______ ______  ");
+            Console.WriteLine(@" \_____  \ /     \\__  \\_  __ \   __\  |    |  _/\__  \ _/ ___\|  |/ /  |  \____ \   /  /_\  \\____ \\____ \ ");
+            Console.WriteLine(@" /        \  Y Y  \/ __ \|  | \/|  |    |    |   \ / __ \\  \___|    <|  |  /  |_> > /    |    \  |_> >  |_> >");
+            Console.WriteLine(@"/_______  /__|_|  (____  /__|   |__|    |______  /(____  /\___  >__|_ \____/|   __/  \____|__  /   __/|   __/");
+            Console.WriteLine(@"        \/      \/     \/                      \/      \/     \/     \/     |__|             \/|__|   |__|   ");
+            Console.WriteLine($"                                                                                        Author: Jais Edelmann");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"{Assembly.GetExecutingAssembly().FullName}");
             Console.WriteLine(@"");
