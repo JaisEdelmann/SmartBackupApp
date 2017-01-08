@@ -1,5 +1,5 @@
 # SmartBackupApp
-Simple and smart backupapp application, that can be scheduled via Windows task scheduler.
+Simple and smart backup application, that can be scheduled via Windows task scheduler.
 
 I created this little app, because I really coulden't find any simple and free solutions for my Virtual machines to get automaticly pushed into to my NAS when i felt it was nessary. So i decided to stop wasting time looking for something simple, and just decided build something simple :) 
 
@@ -9,7 +9,7 @@ Feel free to branch out and do addtional changes, if you feel like it. I'm open 
 
 
 ## Settings
-Remember to update the settings in app.config, to match you required scenario. Version's indicates how many version you want the backup solution to contain. This means that you will have '5' versions of your source onces it creates the 6th it will remove the first oldeste version.
+Remember to update the settings in app.config, to match your required scenario. Version's indicates how many version you want the backup solution to contain. This means that you will have '5' versions of your source onces it creates the 6th it will remove the first oldeste version.
 
 ```xml
   <appSettings>
